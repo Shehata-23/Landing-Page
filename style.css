@@ -10,6 +10,7 @@ body {
     display: flex;
     background-color: #1F2937;
     width: 100%;
+    height: 100vh;
     padding: 50px;
     /* border: 5px solid black; */
     justify-content: space-evenly;
@@ -129,13 +130,12 @@ body {
 .container2{
     flex: 1;
     width: 100%;
-    height: max-content;
+    height: 100vh;
     background-color: #3882F6;
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 50px;
-    padding: 20PX;
 }
 .title{
     width: 600px;
@@ -245,7 +245,7 @@ body {
 .container3{
     display: flex;
     width: 100%;
-    height: max-content;
+    height: 100vh;
     background-color: #E5E7EB;
     justify-content: center ;
     padding-top: auto;
@@ -260,5 +260,70 @@ body {
     font-style: italic;
     font-size: 36px;
     text-align: justify;
+    margin: auto;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.container4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #C2EDCE;
+    padding: auto;
+    
+}
+.signup{
+    background-color: rgba(246, 246, 242, 0.5);
+    border-radius: 20px;
+    backface-visibility: visible;
+    display: flex;
+    flex-direction: column;
+    padding: 25PX;
+    width: 1000px;
+    color: #1F2937;
+    text-align: justify;
+    font-size: 30px;
+    margin:auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.but2{
+    display: flex;
+    width: 1000;
+    justify-content: center;
+    margin-top: 20px;
+}
+.sigbut{
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 30px;
+    border: none; 
+    border-radius: 10px;
+    cursor: pointer; 
+    font-size: 15px; 
+    transition: background-color 0.3s ease; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    font-weight: 600;
 }
 
+.sigbut:hover {
+    background-color: #45a049;
+}
+
+.sigbut:active {
+    background-color: #3e8e41; 
+    box-shadow: none;
+}
+.footer{
+    width: 100%;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+
+}
+.cr{
+    color: white;
+    margin: auto;
+    font-size: 25PX;
+    padding: 20px;
+}
